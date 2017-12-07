@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap 101 Template</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<style>
+.panel-heading .accordion-toggle:after {
+	/* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+	content: "\e113";    /* adjust as needed, taken from bootstrap.css */
+	float: right;        /* adjust as needed */
+	color: white;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+	/* symbol for "collapsed" panels */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+	color: white;
+}
+.accordion-toggle:hover {
+	text-decoration: none;
+}
+#accordion .highlight {
+	background:#1FB5AC;
+	color:white;
+	transition:background 2s ease;
+}
+.panel .panel-heading {
+	background: #1FB5AF;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: verdana
+}
+.panel .panel-heading:hover {
+	background: grey;
+	color: white;
+}
+</style>
+</head>
+<body>
+<div style="width: 50%;float:left" class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading highlight">
+      <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> <i class="indicator glyphicon glyphicon-minus"></i> Prof. Ravidra B Bapat, Indian Statistical Institute, Delhi, India </a> </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <div style="width: 100%; float: right; text-align: justify "> <img  style=" padding-right: 10px " src="http://sau.int/~ctgtc2016/images/RB_Bapat.jpeg" align="left" > The main areas of research interest of Prof. Bapat are nonnegative matrices,
+          matrix inequalities, matrices in graph theory and generalized inverses.
+          He has published more than 100 research papers in these areas in reputed
+          national and international journals and guided three Ph.D. students. He
+          has written books on Linear Algebra, published by Hindustan Book Agency,
+          Springer and Cambridge University Press. He wrote a book on Mathematics
+          for the general reader, in Marathi, which won the state government award
+          for best literature in Science for 2004.
+          Prof. Bapat has been on the editorial boards of Linear and Multilinear
+          Algebra, Electronic Journal of Linear Algebra, India Journal of Pure and
+          Applied Mathematics and Kerala Mathematical Association Bulletin. He
+          has been elected Fellow of the Indian Academy of Sciences, Bangalore and
+          Indian National Science Academy, Delhi. Prof. Bapat served as President of the Indian Mathematical Society during
+          its centennial year 2007-2008. For the past several years he has been
+          actively involved with the Mathematics Olympiad Program in India and
+          served as the National Coordinator for the Program. Prof. Bapat served as
+          Head, ISI Delhi Centre, during 2007-2011. He was awarded the J.C. Bose
+          fellowship in 2009. </div>
+        <div style="width: 70%; float: left; text-align: justify;"> </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"> <i class="indicator glyphicon glyphicon-plus"></i> Collapsible Group Item #2 </a> </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"> <i class="indicator glyphicon glyphicon-plus"></i> Collapsible Group Item #3 </a> </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </div>
+    </div>
+  </div>
+</div>
+<div style="width: 49%;float:right" class="panel-group" id="accordion2">
+  <div class="panel panel-default">
+    <div class="panel-heading highlight">
+      <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne_2"> <i class="indicator glyphicon glyphicon-minus"></i> Collapsible Group Item #1 </a> </h4>
+    </div>
+    <div id="collapseOne_2" class="panel-collapse collapse in">
+      <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo_2"> <i class="indicator glyphicon glyphicon-plus"></i> Collapsible Group Item #2 </a> </h4>
+    </div>
+    <div id="collapseTwo_2" class="panel-collapse collapse">
+      <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree_2"> <i class="indicator glyphicon glyphicon-plus"></i> Collapsible Group Item #3 </a> </h4>
+    </div>
+    <div id="collapseThree_2" class="panel-collapse collapse">
+      <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </div>
+    </div>
+  </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<!-- Latest compiled and minified JavaScript --> 
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> 
+<script>
+
+function toggleChevron(e) {
+      var theAccordion = $(this).closest('.panel-group');
+	  $(e.target)
+        .prev('.panel-heading')
+        .find('i.indicator')
+        .toggleClass('glyphicon-minus glyphicon-plus');
+        //$('#accordion .panel-heading').css('background-color', 'green');
+				theAccordion.find('.panel-heading').removeClass('highlight');
+				$(e.target).prev('.panel-heading').addClass('highlight');
+}
+$('.panel-group').on('hidden.bs.collapse', toggleChevron);
+$('.panel-group').on('shown.bs.collapse', toggleChevron);
+
+</script>
+</body>
+</html>
